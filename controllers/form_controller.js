@@ -19,7 +19,7 @@ exports.add_a_student = async (req, res) => {
   const student = new Student(
     _.pick(req.body, [
       "user1",
-      "role",
+      "role1",
       "user2",
       "role2",
       "user3",
