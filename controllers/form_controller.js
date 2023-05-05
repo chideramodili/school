@@ -27,7 +27,8 @@ exports.add_a_student = async (req, res) => {
       "user4",
       "role4",
       "user5",
-      "role5"
+      "role5",
+      "group_title"
     ])
   );
   const students = await formService.add_a_student(student);
