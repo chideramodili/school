@@ -31,9 +31,9 @@ const student = mongoose.Schema({
     required: true
   },
 
-  group: {
-    type: Number,
-    default: 1
+  group_title: {
+    type: String,
+    required: true
   },
   isDeleted: {
     type: Boolean,
